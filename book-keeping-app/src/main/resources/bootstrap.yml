@@ -5,7 +5,7 @@ spring:
   application:
     name: com.book.keeping
   datasource:
-    url: jdbc:mysql://118.24.197.45:3306/dev?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false&serverTimezone=UTC
+    url: jdbc:mysql://118.24.197.45:3306/book_keeping?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false&serverTimezone=UTC
     username: zhiling_root
     password: ZhiLing123
 

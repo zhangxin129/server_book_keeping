@@ -28,8 +28,8 @@ public class SwaggerConfig {
 
     @Bean
     public Docket createRestApi() {
-        com.google.common.base.Predicate<RequestHandler> selector1 = RequestHandlerSelectors.basePackage("com.test.work.modular.provider");
-        com.google.common.base.Predicate<RequestHandler> selector2 = RequestHandlerSelectors.basePackage("com.test.work.biz");
+        com.google.common.base.Predicate<RequestHandler> selector1 = RequestHandlerSelectors.basePackage("com.book.keeping.modular.provider");
+        com.google.common.base.Predicate<RequestHandler> selector2 = RequestHandlerSelectors.basePackage("com.book.keeping.biz");
         return new Docket(DocumentationType.SWAGGER_2).apiInfo(apiInfo())
                 // 是否开启
                 .enable(swaggerEnabled).select()
